@@ -1,0 +1,578 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+.principal {
+    width: 100%;
+}
+
+.contenedor1 {
+    background-color: #2E1A13;
+    padding: 30px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    color: #CDA87A;
+}
+
+.iconosIn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 25px;
+    color: #CDA87A;
+}
+
+.contenedor2 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #FDF6E2;
+}
+
+h3 {
+    color: #C7B88D;
+}
+
+.texto1 h1 {
+    color: #CB5644;
+}
+
+.texto1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 60px;
+}
+
+.texto1 h1 {
+    font-size: 55px;
+}
+
+.texto1 p {
+    font-size: 14px;
+}
+
+.boton {
+    padding: 10px 30px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #C75540;
+    color: white;
+}
+
+.boton h2 {
+    align-items: center;
+}
+
+.imagen1 img {
+    display: flex;
+    align-items: flex-start;
+    border: solid 4px black;
+    width: 250px;
+    height: 340px;
+    margin: 50px 0px 50px 0px;
+}
+
+.contenedor3 {
+    background-color: #C75540;
+    padding: 25px;
+}
+
+.numeros {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin: 8px;
+    color: #F4E1BA;
+}
+
+.numeros h2 {
+    font-size: 15px;
+}
+
+.contenedor4 {
+    display: grid;
+    grid-template-columns: 36% 30px 62%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2E1A13;
+}
+
+.contenedor4 img {
+    display: flex;
+    width: 110px;
+    height: 110px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    justify-self: end;
+}
+
+.contenedor4 hr {
+    height: 50%;
+    width: 2px;
+    align-self: center;
+    background-color: #D2A874;
+}
+
+.text {
+    align-self: center;
+    color: #D2A874;
+}
+
+.contenedor_fichas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding-top: 50px;
+    background-color: #FDF6E2;
+}
+
+.contenedor_fichas h1 {
+    color: #2E150F;
+}
+
+.textico {
+    margin-bottom: 30px;
+    color: #2E150F;
+}
+
+.fichas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 65%;
+    align-self: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.fichita {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 12px;
+    background-color: white;
+    border: solid 1px rgb(178, 178, 178);
+}
+
+.fichita img {
+    width: 100%;
+    height: 100%;
+}
+
+.namepiz {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+}
+
+.namepiz h2 {
+    color: #CB5644;
+}
+
+.namepiz h3 {
+    color: #2E1A13;
+}
+
+.textopiz {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.namepiz button {
+    width: 130px;
+    height: 30px;
+    background-color: #C75540;
+    color: white;
+}
+
+.botoncito {
+    margin-top: 20px;
+}
+
+.ultimocontent {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #2E1A13;
+}
+
+.img_ulti img {
+    width: 50px;
+    height: 50px;
+}
+
+.ulti {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    background-color: #2E1A13;
+    color: #D2A874;
+}
+
+/* Prácticas de responsividad en la página. */
+@media (max-width:800px) {
+    .principal {
+        width: 100%;
+        align-self: center;
+    }
+
+    .titulo {
+        font-size: 17px;
+    }
+
+    .iconosIn {
+        font-size: 15px;
+    }
+
+    .texto1 h1 {
+        font-size: 50px;
+    }
+
+    .texto1 h3 {
+        font-size: 15px;
+    }
+
+    .texto1 p {
+        font-size: 14px;
+    }
+
+    .boton {
+        width: 135px;
+        height: 30px;
+        font-size: 7px;
+        align-items: center;
+    }
+
+    .contenedor2 {
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+
+    .imagen1 img {
+        width: 170px;
+        height: 250px;
+        align-self: center;
+        margin-top: 80px;
+    }
+
+    .numeros {
+        font-size: 12px;
+    }
+
+    .contenedor4 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contenedor4 hr {
+        height: 40%;
+        width: 1px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .fichas {
+        width: 85%;
+    }
+
+    .fichita {
+        display: grid;
+        grid-template-columns: 80px 1fr;
+        align-items: center;
+        gap: 5px;
+    }
+    .fichita img{
+        width: 100%;
+        height: 100%;
+    }
+    .namepiz {
+        padding: 8px;
+        gap: 9px;
+    }
+    .namepiz h2 {
+        font-size: 20px;
+    }
+
+    .namepiz h3 {
+        font-size: 18px;
+    }
+
+    .textopiz p {
+        font-size: 14px;
+        text-align: left;
+    }
+    .botoncito {
+        margin-top: 0px;
+    }
+    .namepiz button {
+        width: 100px;
+        height: 25px;
+    }
+
+    .img_ulti img {
+        width: 30px;
+        height: 40px;
+    }
+
+    .ulti h6 {
+        font-size: 9px;
+    }
+}
+
+@media (max-width:600px) {
+    .principal {
+        width: 100%;
+        align-self: center;
+    }
+    .titulo{
+        font-size: 16px;
+    }
+    .iconosIn{
+        font-size: 13px;
+    }
+    .texto1 h1 {
+        font-size: 38px;
+    }
+
+    .texto1 h3 {
+        font-size: 12px;
+    }
+
+    .texto1 p {
+        font-size: 13px;
+        display: flex;
+        text-align: end;
+    }
+    .boton {
+        width: 125px;
+        height: 25px;
+        font-size: 6px;
+        align-items: center;
+    }
+
+    .contenedor2 {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        padding-right: 12px;
+    }
+
+    .imagen1 img {
+        width: 140px;
+        height: 210px;
+        align-self: center;
+        margin-top: 99px;
+    }
+    .numeros {
+        font-size: 10px;
+    }
+    .numeros h2{
+        font-size: 13px;
+    }
+
+    .contenedor4 img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .contenedor4 hr {
+        height: 40%;
+        width: 1px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .fichas {
+        width: 70%;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+    .contenedor_fichas{
+        align-content: center;
+    }
+    .fichita {
+        display: grid;
+        align-items: center;
+        gap: 5px;
+    }
+    .contenedor_fichas h1{
+        font-size: 28px;
+    }
+    .textico{
+        font-size: 14px;
+    }
+    .namepiz{
+        padding: 20px;
+    }
+    .namepiz h2 {
+        font-size: 19px;
+    }
+
+    .namepiz h3 {
+        font-size: 17px;
+    }
+
+    .textopiz p {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .namepiz button {
+        width: 80px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .img_ulti img {
+        width: 20px;
+        height: 30px;
+    }
+
+    .ulti h6 {
+        font-size: 6px;
+    }
+
+}
+@media (max-width:400px) {
+    .principal {
+        width: 100%;
+        align-self: center;
+    }
+    .titulo{
+        font-size: 13px;
+    }
+    .iconosIn{
+        font-size: 11px;
+    }
+    .contenedor2 {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding-right: 12px;
+    }
+    .texto1{
+        margin-right: 30px;
+    }
+    .texto1 h3{
+        font-size: 8px;
+    }
+    .texto1 h1 {
+        font-size:28px;
+        text-align: end;
+    }
+
+    .texto1 p {
+        font-size: 10px;
+        display: flex;
+        text-align: end;
+    }
+    .boton {
+        width: 70px;
+        height: 17px;
+        font-size: 4px;
+        align-items: center;
+        padding: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .imagen1 img {
+        width: 110px;
+        height: 180px;
+        margin-top: 96px;
+    }
+    .numeros {
+        font-size: 9px;
+    }
+    .numeros h2{
+        font-size: 8px;
+    }
+
+    .contenedor4 img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .contenedor4 hr {
+        height: 38%;
+        width: 1px;
+    }
+
+    .text {
+        font-size: 9px;
+
+    }
+
+    .fichas {
+        width: 85%;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+    .contenedor_fichas{
+        align-content: center;
+    }
+    .fichita {
+        display: grid;
+        align-items: center;
+        gap: 5px;
+    }
+    .fichita img{
+        width: 100%;
+        height: 100%;
+    }
+    .contenedor_fichas h1{
+        font-size: 23px;
+    }
+    .textico{
+        font-size: 11px;
+    }
+    namepiz{
+        padding: 8px;
+        gap: 5px;
+    }
+    .namepiz h2 {
+        font-size: 18px;
+    }
+
+    .namepiz h3 {
+        font-size: 15px;
+    }
+
+    .textopiz p {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .namepiz button {
+        width: 70px;
+        height: 22px;
+        font-size: 9px;
+    }
+    .botoncito{
+        margin-top: 0px;
+    }
+    .img_ulti img {
+        width: 17px;
+        height: 27px;
+    }
+
+    .ulti h6 {
+        font-size: 8px;
+    }
+
+}
