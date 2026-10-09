@@ -150,7 +150,7 @@ h3 {
 .fichas {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 65%;
+    width: 68%;
     align-self: center;
     gap: 30px;
     padding-bottom: 30px;
@@ -158,7 +158,7 @@ h3 {
 
 .fichita {
     display: grid;
-    grid-template-columns: 110px 1fr;
+    grid-template-columns: 150px 1fr;
     gap: 12px;
     background-color: white;
     border: solid 1px rgb(178, 178, 178);
@@ -223,7 +223,6 @@ h3 {
     color: #D2A874;
 }
 
-/* Prácticas de responsividad en la página. */
 @media (max-width:800px) {
     .principal {
         width: 100%;
@@ -240,6 +239,8 @@ h3 {
 
     .texto1 h1 {
         font-size: 50px;
+        align-items: end;
+        text-align: end;
     }
 
     .texto1 h3 {
@@ -248,6 +249,7 @@ h3 {
 
     .texto1 p {
         font-size: 14px;
+        text-align: end;
     }
 
     .boton {
@@ -297,14 +299,17 @@ h3 {
         align-items: center;
         gap: 5px;
     }
-    .fichita img{
+
+    .fichita img {
         width: 100%;
         height: 100%;
     }
+
     .namepiz {
         padding: 8px;
         gap: 9px;
     }
+
     .namepiz h2 {
         font-size: 20px;
     }
@@ -317,9 +322,11 @@ h3 {
         font-size: 14px;
         text-align: left;
     }
+
     .botoncito {
         margin-top: 0px;
     }
+
     .namepiz button {
         width: 100px;
         height: 25px;
@@ -335,17 +342,29 @@ h3 {
     }
 }
 
+@media (max-width:660px) {
+    .imagen1 img {
+        width: 150px;
+        height: 230px;
+        align-self: center;
+        margin-top: 135px;
+    }
+}
+
 @media (max-width:600px) {
     .principal {
         width: 100%;
         align-self: center;
     }
-    .titulo{
+
+    .titulo {
         font-size: 16px;
     }
-    .iconosIn{
+
+    .iconosIn {
         font-size: 13px;
     }
+
     .texto1 h1 {
         font-size: 38px;
     }
@@ -359,6 +378,7 @@ h3 {
         display: flex;
         text-align: end;
     }
+
     .boton {
         width: 125px;
         height: 25px;
@@ -378,10 +398,12 @@ h3 {
         align-self: center;
         margin-top: 99px;
     }
+
     .numeros {
         font-size: 10px;
     }
-    .numeros h2{
+
+    .numeros h2 {
         font-size: 13px;
     }
 
@@ -404,23 +426,29 @@ h3 {
         align-items: center;
         grid-template-columns: 1fr;
     }
-    .contenedor_fichas{
+
+    .contenedor_fichas {
         align-content: center;
     }
+
     .fichita {
         display: grid;
         align-items: center;
         gap: 5px;
     }
-    .contenedor_fichas h1{
+
+    .contenedor_fichas h1 {
         font-size: 28px;
     }
-    .textico{
+
+    .textico {
         font-size: 14px;
     }
-    .namepiz{
+
+    .namepiz {
         padding: 20px;
     }
+
     .namepiz h2 {
         font-size: 19px;
     }
@@ -448,32 +476,63 @@ h3 {
     .ulti h6 {
         font-size: 6px;
     }
-
 }
+
+@media (max-width:470px) {
+    .contenedor2 {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding-right: 12px;
+        align-content: end;
+    }
+
+    .texto1 {
+        margin: 20px;
+    }
+
+    .imagen1 img {
+        width: 120px;
+        height: 200px;
+        align-self: center;
+        margin-top: 85px;
+        margin-left: 20px;
+    }
+
+    .text {
+        font-size: 10px;
+    }
+}
+
 @media (max-width:400px) {
     .principal {
         width: 100%;
         align-self: center;
     }
-    .titulo{
+
+    .titulo {
         font-size: 13px;
     }
-    .iconosIn{
+
+    .iconosIn {
         font-size: 11px;
     }
+
     .contenedor2 {
         display: grid;
         grid-template-columns: 60% 40%;
         padding-right: 12px;
     }
-    .texto1{
+
+    .texto1 {
         margin-right: 30px;
     }
-    .texto1 h3{
+
+    .texto1 h3 {
         font-size: 8px;
     }
+
     .texto1 h1 {
-        font-size:28px;
+        font-size: 28px;
         text-align: end;
     }
 
@@ -482,6 +541,7 @@ h3 {
         display: flex;
         text-align: end;
     }
+
     .boton {
         width: 70px;
         height: 17px;
@@ -491,15 +551,18 @@ h3 {
         padding-top: 5px;
         padding-bottom: 5px;
     }
+
     .imagen1 img {
         width: 110px;
         height: 180px;
         margin-top: 96px;
     }
+
     .numeros {
         font-size: 9px;
     }
-    .numeros h2{
+
+    .numeros h2 {
         font-size: 8px;
     }
 
@@ -515,7 +578,6 @@ h3 {
 
     .text {
         font-size: 9px;
-
     }
 
     .fichas {
@@ -523,28 +585,35 @@ h3 {
         align-items: center;
         grid-template-columns: 1fr;
     }
-    .contenedor_fichas{
+
+    .contenedor_fichas {
         align-content: center;
     }
+
     .fichita {
         display: grid;
         align-items: center;
         gap: 5px;
     }
-    .fichita img{
+
+    .fichita img {
         width: 100%;
         height: 100%;
     }
-    .contenedor_fichas h1{
+
+    .contenedor_fichas h1 {
         font-size: 23px;
     }
-    .textico{
+
+    .textico {
         font-size: 11px;
     }
-    namepiz{
+
+    .namepiz {
         padding: 8px;
         gap: 5px;
     }
+
     .namepiz h2 {
         font-size: 18px;
     }
@@ -563,9 +632,11 @@ h3 {
         height: 22px;
         font-size: 9px;
     }
-    .botoncito{
+
+    .botoncito {
         margin-top: 0px;
     }
+
     .img_ulti img {
         width: 17px;
         height: 27px;
@@ -574,5 +645,4 @@ h3 {
     .ulti h6 {
         font-size: 8px;
     }
-
 }
